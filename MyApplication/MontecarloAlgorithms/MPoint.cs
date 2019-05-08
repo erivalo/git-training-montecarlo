@@ -21,7 +21,7 @@ namespace MontecarloAlgorithms
         /// <summary>
         /// insideCircle value
         /// </summary>
-        public bool insideCircle;
+        public bool InsideCircle;
 
         /// <summary>
         /// MPoint constructor
@@ -33,7 +33,7 @@ namespace MontecarloAlgorithms
         {
             this.X = x;
             this.Y = y;
-            this.insideCircle = insideCircle;
+            this.InsideCircle = insideCircle;
         }
     }
 }
